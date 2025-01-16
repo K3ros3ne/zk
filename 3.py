@@ -33,7 +33,6 @@ class Circle(Shape):
     def __str__(self):
         return f"{self.shape_name} with a radius of {self.radius} has an area of {self.area()}"
 
-# Unit test
 def test_shapes():
     rect = Rectangle(4, 5)
     assert rect.area() == 20.0
